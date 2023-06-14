@@ -1,4 +1,4 @@
-
+//відображаю передане повідомлення
 
 import PropTypes from 'prop-types';
 
@@ -9,4 +9,3 @@ export const Notification = ({ message }) => {
 Notification.propTypes = {
   message: PropTypes.string.isRequired,
 };
-//відображаю передане повідомлення

@@ -1,3 +1,4 @@
+//розміщую заголовок і передаю чілдреном statistic
 
 import PropTypes from 'prop-types';
 
@@ -14,4 +15,3 @@ Section.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
-//розміщую заголовок і передаю чілдреном statistic
